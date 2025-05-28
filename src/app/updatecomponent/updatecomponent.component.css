@@ -1,0 +1,35 @@
+.update-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    align-items: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 30vh;
+    background-color: #7F5539;
+    color: white;
+    height: 40vh;
+    border-radius: 10px;
+    
+}
+.text{
+    font-family: "Courier New", Consolas, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+.update-btn {
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+.back-btn {
+    margin-right: 80%;
+    background-color: transparent;
+    color: white;
+    width: 50px;
+    border-color: gray;
+    border-radius: 10px;
+}

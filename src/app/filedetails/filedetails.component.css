@@ -1,0 +1,64 @@
+.file-details-container {
+    text-align: center;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+
+}
+.delete-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    align-items: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 30vh;
+    background-color: #7F5539;
+    color: white;
+    height: 40vh;
+    border-radius: 10px;
+}
+.inner-container {
+    background-color: #7F5539;
+    width: 30%;
+    position: fixed;
+    padding: 10px;
+    color: white;
+    font-family: Roboto;
+    border-radius: 10px;
+}
+
+.delete-btn {
+    border-radius: 10px;
+}
+
+.edit-btn {
+    margin-left: 30px;
+    background-color: transparent;
+    border-radius: 7px;
+    width: 50px;
+}
+
+.heading-ele {
+    text-decoration: underline;
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 30px;
+}
+
+.back-btn {
+    margin-right: 100%;
+    background-color: transparent;
+    color: white;
+    width: 50px;
+    border-color: gray;
+    border-radius: 10px;
+}
+
+.text {
+    font-size: 20px;
+    /* font-family: "Comic Sans MS", Brush Script MT, cursive !important; */
+    font-family: "Courier New", Consolas, monospace !important;
+    font-weight: bold;
+}

@@ -1,0 +1,37 @@
+<div class="container1" *ngIf="userData">
+
+
+  <div *ngIf="users.length; else noUsers" class="bg-container">
+    <table border="1" cellpadding="6" cellspacing="0" style="margin-left: 60px;width: 80%;">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Username</th>
+          <th>Role</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td>{{ user.id }}</td>
+          <td>{{ user.username }}</td>
+
+          <td>{{ user.role }}</td>
+          <td><button class="btn btn-danger" (click)="Delete(user.id)">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <ng-template #noUsers>
+    <p style="color: gray;">No users found with role USER.</p>
+  </ng-template>
+</div>
+
+<div class="file-details-container" *ngIf="deleteUser">
+  <h1 class="heading">Do you want to delete User record ?</h1>
+  <div class="d-flex flex-row justify-content-center" style="margin-top: 30px;">
+    <button class="btn btn-success" (click)="yesDelete()" style="margin-right: 10%;">Yes</button>
+    <button class="btn btn-danger" (click)="noDelete()" style="margin-left: 10%;">No</button>
+  </div>
+</div>

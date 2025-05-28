@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="login-bg">
+      
+      <form
+        class="login-container d-flex flex-column justify-content-center"
+        (submit)="login()"
+      >
+      <h1 class="login-heading">Login</h1>
+        <div style="margin-top: 30px; margin-bottom: 20px;">
+          <label class="label-ele" for="userName">Username :</label>
+          <input
+            name="user"
+            class="input-width"
+            [(ngModel)]="username"
+            type="text"
+            (blur)="usernameCheck()"
+            id="userName"
+          />
+          <p *ngIf="userCheck" class="warn-msg">*Username Required</p>
+        </div>
+        <div style="margin-top: 20px; margin-bottom: 20px;">
+          <label class="label-ele" for="password">Password :</label>
+          <input
+            name="pass"
+            class="input-width"
+            [(ngModel)]="password"
+            type="password"
+            id="password"
+            (blur)="passwordCheck()"
+          />
+          <p *ngIf="passCheck" class="warn-msg">*Password Required</p>
+        </div>
+        <p>
+          New User?
+          <button type="button" (click)="signUp()" class="signUpBtn">
+            sign up
+          </button>
+        </p>
+        <div style="margin-top: 10px; margin-bottom: 10px;">
+          <button type="submit" class="login-submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

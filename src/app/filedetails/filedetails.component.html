@@ -1,0 +1,23 @@
+<div class="file-details-container" *ngIf="fileDetailsCheck">
+
+    <div class="inner-container">
+        <button class="back-btn" (click)="back()">🡸</button>
+        <h1 class="heading-ele">Record Details</h1>
+        <pre class="text">Id  :    <span>{{recordDetails.id}}</span></pre>
+        <pre class="text">  FileName  :   <span>{{recordDetails.filename}}</span></pre>
+        <pre class="text">RecordCount  :   <span>{{recordDetails.recordCount}}</span></pre>
+        <pre class="text">Errors  :   <span>{{recordDetails.errors}}</span></pre>
+        <pre class="text">Date  :   <span>{{recordDetails.localDate}}</span></pre>
+        <pre
+            class="text">Status  :   <span>{{recordDetails.status}}</span><button class="edit-btn" (click)="updateStatus(recordDetails.id)">✏️</button></pre>
+
+        <button class="delete-btn" (click)="delete()">Delete Record</button>
+    </div>
+</div>
+<div class="delete-container" *ngIf="deletePopUp">
+    <h1>Are You Sure?</h1>
+    <div class="d-flex flex-row justify-content-center" style="margin-top: 30px;">
+        <button class="btn btn-success" (click)="deleteRecor(recordDetails.id)" style="margin-right: 10%;">Yes</button>
+        <button class="btn btn-danger" (click)="backToFileDetails()" style="margin-right: 10%;">No</button>
+    </div>
+</div>

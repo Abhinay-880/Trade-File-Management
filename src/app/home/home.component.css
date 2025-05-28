@@ -1,0 +1,54 @@
+.custom-btn {
+    align-items: center;
+    
+  /* left: 60%;
+  right: 40%;
+    transform: translate(-50%, -50%);
+    margin-top: 20vh;
+    width: 20%; */
+}
+.home-heading{
+    font-family: "Courier New", Consolas, monospace;
+    margin-left: 20px;
+    font-weight: 600;
+    color: #333333;
+    font-size: 35px;
+}
+.listItems{
+    list-style:square;
+}
+.home-para{
+    font-family: "Comic Sans MS", Brush Script MT, cursive;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+.copyRight-heading{
+    text-align: center;
+   
+    padding-top: 50px;
+    font-size: 20px;
+
+}
+.home-container{
+    height: 100%;
+    
+}
+.copyright-container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.heading{
+    /* font-family: "Times New Roman", Georgia, serif; */
+    font-family: "Comic Sans MS", Brush Script MT, cursive;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: #2C3E50;
+}

@@ -1,0 +1,88 @@
+.admin-submit {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.register-heading{
+    color: white;
+    padding-top: 10px;
+}
+
+.signInBtn {
+    background-color: transparent;
+    border-width: 0px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.admin-input {
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.admin-label {
+    font-family: Roboto;
+    color: white;
+}
+
+.cancel-button {
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+}
+
+.admin-heading {
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.admin-class {
+    position: fixed;
+    margin-top: 50px;
+    background-color: #7F5539;
+    padding-top: 10px;
+    border-radius: 10px;
+    height: 50vh;
+    width: 30%;
+    padding-left: 40px;
+
+}
+
+.warn-msg {
+    color: black;
+    font-family: Roboto;
+}
+
+.register-submit {
+    font-family: Roboto;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.input-width {
+    margin-left: 10px;
+    width: 200px;
+}
+
+.label-ele {
+    color: white;
+}
+
+.register-bg {
+    display: flex;
+    flex-direction: column;
+    background-color: #E6D5B8;
+    align-items: center;
+}
+
+.register-container {
+    background-color: #7F5539;
+    width: 30%;
+    margin-top: 40px;
+    align-items: center;
+    border-radius: 10px;
+    height: 80vh;
+    margin-bottom: 10px;
+}

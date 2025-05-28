@@ -1,0 +1,16 @@
+<form (submit)="FormMethod()" class="bg-container">
+    <p>id : <input style="margin-left: 5px;" [(ngModel)]="Id" name="id" type="number" /></p>
+    <p>Filename : <input style="margin-left: 5px;" [(ngModel)]="FileName" name="filename" type="text" /></p>
+    <label for="status">Status :</label>
+    <select style="margin-left: 5px;" id="status" [(ngModel)]="Status" name="status">
+        <option value="" disabled>select status</option>
+        <option value="NEW">NEW</option>
+        <option value="PROCESSED">PROCESSED</option>
+        <option value="FAILED">FAILED</option>
+    </select>
+    <p>FromDate : <input [max]="todayDate" style="margin-left: 5px;margin-top: 9px;" [(ngModel)]="FromDate" name="fromdate" type="date" />
+    </p>
+    <p>ToDate : <input [max]="todayDate" style="margin-left: 5px;" value="todate" name="todate" [(ngModel)]="ToDate" type="date" /></p>
+    <button class="btnEle" type="submit" style="margin-left: 5px;">Apply</button>
+    <button class="btnEle" type="button" (click)="ClearFilter($event)" style="margin-left: 100px;">clear</button>
+</form>

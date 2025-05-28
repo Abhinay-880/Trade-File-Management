@@ -1,0 +1,53 @@
+.admin-class {
+
+    margin-top: 50px;
+    background-color: #7F5539;
+    padding-top: 10px;
+    border-radius: 10px;
+    height: 50vh;
+    width: 30%;
+    padding-left: 40px;
+
+}
+
+.warn-msg {
+    color: black;
+    font-family: Roboto;
+}
+
+.register-submit {
+    font-family: Roboto;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.input-width {
+    margin-left: 10px;
+    width: 200px;
+}
+
+.label-ele {
+    color: white;
+}
+
+.register-bg {
+    display: flex;
+    flex-direction: column;
+    background-color: #E6D5B8;
+    align-items: center;
+}
+
+.bg-container {
+    background-color: #7F5539;
+    color: white;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    
+}
+
+.btnEle {
+    border-radius: 10px;
+}

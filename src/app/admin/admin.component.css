@@ -1,0 +1,33 @@
+table {
+  width: 100%;
+}
+.container1{
+  background-color: #E6D5B8;
+  height: 100%;
+  width: 100%;
+ 
+}
+.bg-container {
+  margin-top: 10vh;
+  padding: 20px;
+}
+.file-details-container {
+  text-align: center;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 30vh;
+  width: 40%;
+  background-color: #7F5539;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+.heading{
+  font-family: Roboto;
+  font-size: 30px;
+}

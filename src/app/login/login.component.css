@@ -1,0 +1,46 @@
+.warn-msg {
+    color: black;
+    font-family: Roboto;
+}
+.login-heading{
+    color: white;
+    padding-top: 10px;
+}
+.signUpBtn {
+    background-color: transparent;
+    border-width: 0px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.login-submit {
+    font-family: Roboto;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.input-width {
+    margin-left: 10px;
+    width: 200px;
+}
+
+.label-ele {
+    color: white;
+}
+
+.login-bg {
+    display: flex;
+    flex-direction: column;
+    background-color: #E6D5B8;
+    align-items: center;
+}
+
+.login-container {
+    background-color: #7F5539;
+    width: 30%;
+    margin-top: 40px;
+    align-items: center;
+    border-radius: 10px;
+    height: 70vh;
+    margin-bottom: 10px;
+}
